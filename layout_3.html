@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+          integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=PT+Sans&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <script src="js/script.js"></script>
+    <title>Layout 3</title>
+</head>
+<body>
+<div class="wrapper">
+    <header class="header">
+
+        <div class="vmist">
+            <div class="company_name">
+                <img src="/var/www/3 layout/photo/company_name1.png" alt="company_logo" width="273" height="100"
+                     title="company_logo">
+            </div>
+            <div class="number_header">
+                <p class="number_style">+7(499) 777-77-77</br>+7(499) 777-77-77</p>
+                <a href="#" onclick="openForm()"><p class="conection">Обратная связь</p></a>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <menu>
+            <div class="links_in_menu">
+                <a class="link" href="#">Главная</a> | <a class="link" href="#">Каталог</a> | <a class="link" href="#">Доставка
+                и оплата</a> | <a class="link" href="#">Прайс-лист</a> | <a class="link" href="#">Контакты</a>
+            </div>
+        </menu>
+        <div class="block_for_slider">
+
+            <div id="slider_next_slider" class="carousel slide carousel-fade" data-interval="4000" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block" src="photo/slider_1.png" alt="slider_1" width="1248" height="462">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block" src="photo/slider_2.png" alt="slider_2" width="1248" height="462">
+                    </div>
+
+                </div>
+                <a class="carousel-control-prev" href="#slider_next_slider" data-slide="prev">
+                    <span><img src="/var/www/3 layout/photo/sloy_1.png" width="34" height="61"></span>
+                </a>
+                <a class="carousel-control-next" href="#slider_next_slider" data-slide="next">
+                    <span><img src="/var/www/3 layout/photo/sloy_2.png" width="34" height="61"></span>
+                </a>
+
+            </div>
+
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+                crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+                integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+                crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+                integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+                crossorigin="anonymous"></script>
+        <ul class="breadcrumb">
+            <li><a href="#">Главная</a></li>
+            <li class="qwe"><a href="#">Каталог</a></li>
+            <li class="qwe">Бытовая техника</li>
+        </ul>
+        <div class="main_content">
+            <div class="content">
+                <div class="leftblock">
+                    <ul>
+                        <li><a class="linls_in_left_menu" href="#">Автомобили</a></li>
+                        <div class="dropdown">
+                            <li><a class="linls_in_left_menu" href="#"><span class="dropbtn">Бытовая техника</span></a>
+                            </li>
+
+                            <ul class="dropdown-content">
+                                <li><a class="dropdown_menu" href="#">Микроволновки</a></li>
+                                <li><a class="dropdown_menu" href="#">Холодильники</a></li>
+                                <li><a class="dropdown_menu" href="#">Посудомоечные машины</a></li>
+                                <li><a class="dropdown_menu" href="#">Чайники</a></li>
+                            </ul>
+                        </div>
+                        <li><a class="linls_in_left_menu" href="#">Мобильная техника</a></li>
+                        <li><a class="linls_in_left_menu" href="#">Компьютеры</a></li>
+                        <li><a class="linls_in_left_menu" href="#">Одежда</a></li>
+                        <li><a class="linls_in_left_menu" href="#">Недвижимость</a></li>
+                    </ul>
+                    <div class="price_list">
+                        <img class="price_photo" src="/var/www/3 layout/photo/excel.png" alt="excel" width="97"
+                             height="111" title="excel">
+                        <p class="price_text">Прайс-лист</p>
+                    </div>
+                </div>
+                <div class="catalog">
+                    <div class="goods">
+                        <img class="nophoto" src="/var/www/3 layout/photo/nophoto.png" alt="company_logo" width="210"
+                             height="209" title="nophoto">
+                        <a class="pot_1" href="#"><p class="pot">Самый клевый чайник,</br> который надо купить!</p></a>
+                        <div class="bottom_of_goods">
+                            <p class="price">1 900 р.</p>
+                            <a class="addtobasket_1" href="#"> <img class="addtobasket"
+                                                                    src="/var/www/3 layout/photo/addtobasket.png"
+                                                                    alt="addtobasket" width="28" height="21"
+                                                                    title="addtobasket"></a>
+                        </div>
+                    </div>
+                    <div class="goods">
+                        <img class="nophoto" src="/var/www/3 layout/photo/nophoto.png" alt="company_logo" width="210"
+                             height="209" title="nophoto">
+                        <a class="pot_1" href="#"><p class="pot">Самый клевый чайник,</br> который надо купить!</p></a>
+                        <div class="bottom_of_goods">
+                            <p class="price">1 900 р.</p>
+                            <a class="addtobasket_1" href="#"> <img class="addtobasket"
+                                                                    src="/var/www/3 layout/photo/addtobasket.png"
+                                                                    alt="addtobasket" width="28" height="21"
+                                                                    title="addtobasket"></a>
+                        </div>
+                    </div>
+                    <div class="goods">
+                        <img class="nophoto" src="/var/www/3 layout/photo/nophoto.png" alt="company_logo" width="210"
+                             height="209" title="nophoto">
+                        <a class="pot_1" href="#"><p class="pot">Самый клевый чайник,</br> который надо купить!</p></a>
+                        <div class="bottom_of_goods">
+                            <p class="price">1 900 р.</p>
+                            <a class="addtobasket_1" href="#"> <img class="addtobasket"
+                                                                    src="/var/www/3 layout/photo/addtobasket.png"
+                                                                    alt="addtobasket" width="28" height="21"
+                                                                    title="addtobasket"></a>
+                        </div>
+                    </div>
+                    <div class="goods">
+                        <img class="nophoto" src="/var/www/3 layout/photo/nophoto.png" alt="company_logo" width="210"
+                             height="209" title="nophoto">
+                        <a class="pot_1" href="#"><p class="pot">Самый клевый чайник,</br> который надо купить!</p></a>
+                        <div class="bottom_of_goods">
+                            <p class="price">1 900 р.</p>
+                            <a class="addtobasket_1" href="#"> <img class="addtobasket"
+                                                                    src="/var/www/3 layout/photo/addtobasket.png"
+                                                                    alt="addtobasket" width="28" height="21"
+                                                                    title="addtobasket"></a>
+                        </div>
+                    </div>
+                    <div class="goods">
+                        <img class="nophoto" src="/var/www/3 layout/photo/nophoto.png" alt="company_logo" width="210"
+                             height="209" title="nophoto">
+                        <a class="pot_1" href="#"><p class="pot">Самый клевый чайник,</br> который надо купить!</p></a>
+                        <div class="bottom_of_goods">
+                            <p class="price">1 900 р.</p>
+                            <a class="addtobasket_1" href="#"> <img class="addtobasket"
+                                                                    src="/var/www/3 layout/photo/addtobasket.png"
+                                                                    alt="addtobasket" width="28" height="21"
+                                                                    title="addtobasket"></a>
+                        </div>
+                    </div>
+                    <div class="pager_block">
+                        <div class="pager">
+                            <a class="number_pager" href="#">1</a><a class="number_pager" href="#">2</a><a
+                                class="number_pager_1" href="#">3</a><a class="number_pager" href="#">4</a><a
+                                class="number_pager" href="#">5</a><a class="number_pager" href="#">6</a><a
+                                class="number_pager" href="#">7</a>
+                        </div>
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="lower_block">
+                <div class="bottom_one"><p class="text_boxes">Компания «Пиксель Плюс» существует более 6 лет, за это
+                    время мы принимали участие в разработке более чем 700 сайтов, поэтому можем уверенно называть себя
+                    профессионалами. На данный момент наш коллектив состоит из более чем 30 сотрудников работающих в
+                    двух офисах в Москве и Зеленограде.характерные для этого жанра мотивы: неразделённой любви, ухода
+                    молодости, угасания души.</p></div>
+                <div class="bottom_two"><p class="text_boxes">Одним из основных направлений работ нашей компании
+                    является поисковое продвижение сайтов, на данной момент мы работаем с более чем 150 постоянными
+                    клиентами по более чем 11 000 поисковым запросам. При этом в работе основной акцент мы делаем на
+                    качестве работ, а так же применяем собственные уникальные разработки в области SEO продвижения. На
+                    данный момент отдел SEO состоит из 9 человек под руководством ведущего специалиста, преимущественно
+                    работающих в нашем московском офисе.</p></div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="bottom">
+            <div class="bottom_block_1">
+                <p class="bottom_1">© 2012–2013 ЗАО «Компания» info@name.ru</p>
+            </div>
+            <div class="bottom_block_2">
+                <dl class="punkt_bottom">
+                    <dd class="dd2">Главная</dd>
+                    <dd class="dd2">Каталог</dd>
+                    <dd class="dd2">Доставка и оплата</dd>
+                    <dd class="dd2">Прайс-лист</dd>
+                    <dd class="dd2">Контакты</dd>
+                </dl>
+            </div>
+            <div>
+                <div class="bottom_block_3">
+                    <img class="photo_bottom" src="/var/www/3 layout/photo/company.png" alt="slider_photo"
+                         title="slider_photo" width="36px" height="38px">
+                    <p class="bottom_3"><u>Разработка сайта</u> — компания «Пиксель Плюс»</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<div class="feedback1" id="form1">
+    <div class="feedback_block">
+        <div class="block_for_botton_picture">
+            <img onclick="closeForm()" class="cross" src="/var/www/3 layout/photo/botton_picture.png"
+                 title="botton_picture" width="15px" height="15px">
+        </div>
+        <form name="form_name" action="#" method="get">
+            <h1 class="title_of_feedback">Обратная связь</h1>
+            <p class="title_of_field_input">Ваше имя *</p>
+            <input type="text" name="input_first" value="" class="input_first_1"
+                   placeholder="Поле обязательно для заполнения" required>
+            <p class="title_of_field_input">Телефон *</p>
+            <input type="tel" name="input_second" value="" class="input_first_1"
+                   placeholder="Поле обязательно для заполнения" required>
+            <p class="title_of_field_input">Email *</p>
+            <input type="text" name="email" value="" class="input_first_1" placeholder="Поле обязательно для заполнения"
+                   required>
+            <p class="title_of_field_input">Сообщение</p>
+            <textarea name="massage" value="" class="input_second_2"></textarea>
+            <button class="button_in_form" type="submit"><span class="text_in_botton">ОТПРАВИТЬ</span></button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
